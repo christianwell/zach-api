@@ -32,4 +32,4 @@ curl http://localhost:3000/quotes/random
 /photos/random - returns a random photo \
 /photos/{title} - returns the photo with the given title \
 \
-/health - returns 200 OK if the server is running \
+/health - returns 200 OK if the server is running
