@@ -26,10 +26,10 @@ curl http://localhost:3000/quotes/random
 
 ## endpoints
 
-/quotes/random - returns a random quote
-/quotes/{index} - returns the quote at the given index
-
-/photos/random - returns a random photo
-/photos/{title} - returns the photo with the given title
-
-/health - returns 200 OK if the server is running
+/quotes/random - returns a random quote \
+/quotes/{index} - returns the quote at the given index \
+\
+/photos/random - returns a random photo \
+/photos/{title} - returns the photo with the given title \
+\
+/health - returns 200 OK if the server is running \
