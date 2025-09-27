@@ -54,10 +54,7 @@ func main() {
 		}
 
 		// pick random
-		randomIndex := 0
-		if len(quotes) > 0 {
-			randomIndex = (int)(os.Getpid()) % len(quotes)
-		}
+		randomIndex := rand.Intn(len(quotes))
 		quote := quotes[randomIndex]
 
 		response := QuoteResponse{
